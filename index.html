@@ -4,70 +4,151 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@400..700&display=swap" rel="stylesheet">
+
   <style>
+
+    * {
+      font-family: "Noto Sans Javanese", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+     }
+
     .box {
-      width: 800px;
+      width: 1406px;
       margin: auto;
-      margin-bottom: 200px;
+      margin-bottom: 800px;
     }
+
     table{
         border-collapse: collapse;
         margin: 20px;
         border: 3px solid;
         width: 100%;
     }
+
     td{
       border: 3px solid;
-      border-collapse: collapse;
+  
     }
+
     img{
-      width: 100%;
+      width: 100px;
       height: 100%;
     }
+
+    tr{
+      border-collapse: collapse;
+    }
+
+    th{
+      border: solid;
+    }
+
+    .btn{
+      border: 10px;
+      background-color: gainsboro;
+      padding: 2px;
+      border-radius: 5%;
+      text-decoration: none;
+    }
+   
   </style>
+
 </head>
 <body>
-  <h1>Daftar Menu</h1>
-  <button>Tambah</button>
+
   <div class="box">
+
+    <h1>Daftar Menu</h1>
+
+    <a href="tambah.html" class="btn">Tambah</a>
+
     <table id="tabel">
+
         <thead>
-            <tr>
-                <th>Nomer</th>
-                <th>Nama</th>
-                <th>Harga</th>
-                <th>Gambar</th>
+            <tr >
+                <th width="25px">No</th>
+                <th>Nama Barang</th>
+                <th>Kode Barang</th>
+                <th>Tanggal Masuk</th>
+                <th>Tanggal expired</th>
+                <th>Jumlah stock</th>
+                <th>Harga Beli</th>
+                <th>Harga Jual</th>
+                <th>Aksi</th>
             </tr>
+
         </thead>
+
         <tr>
             <td>1</td>
-            <td>Mie Ayam</td>
-            <td>Rp 8.000</td>
-            <td><img src="Mie Ayam.jpg" alt=""></td>
+            <td>Masker Medis</td>
+            <td>Bnbwt10stm7</td>
+            <td>05-09-2024</td>
+            <td>14-06-2035</td>
+            <td>44</td>
+            <td>2.500</td>
+            <td>10.000</td>
+            <td><button>Edit</button> <button> Delete</button></td>
         </tr>
+
         <tr>
             <td>2</td>
-            <td>Bakso</td>
-            <td>Rp 10.000</td>
-            <td><img src="Bakso.jpg" alt=""></td>
+            <td>Masker Medis</td>
+            <td>Bnbwt10stm7</td>
+            <td>05-09-2024</td>
+            <td>14-06-2035</td>
+            <td>44</td>
+            <td>2.500</td>
+            <td>10.000</td>
+            <td><button>Edit</button> <button> Delete</button></td>
+            
         </tr>
+
         <tr>
             <td>3</td>
-            <td>Soto</td>
-            <td>Rp 7.000</td>
-            <td><img src="Soto.webp" alt=""></td>
+            <td>Masker Medis</td>
+            <td>Bnbwt10stm7</td>
+            <td>05-09-2024</td>
+            <td>14-06-2035</td>
+            <td>44</td>
+            <td>2.500</td>
+            <td>10.000</td>
+            <td><button>Edit</button> <button> Delete</button></td>
         </tr>
+
         <tr>
             <td>4</td>
-            <td>Rawon</td>
-            <td>Rp 9.000</td>
-            <td><img src="Rawon.jpg" alt=""></td>
+            <td>Masker Medis</td>
+            <td>Bnbwt10stm7</td>
+            <td>05-09-2024</td>
+            <td>14-06-2035</td>
+            <td>44</td>
+            <td>2.500</td>
+            <td>10.000</td>
+            <td><button>Edit</button> <button> Delete</button></td>
         </tr>
+
+        <tr>
+          <td>5</td>
+          <td>Masker Medis</td>
+          <td>Bnbwt10stm7</td>
+          <td>05-09-2024</td>
+          <td>14-06-2035</td>
+          <td>44</td>
+          <td>2.500</td>
+          <td>10.000</td>
+          <td><button>Edit</button> <button> Delete</button></td>
+      </tr>
+
     </table>
-  </div>
-
-  <div class="box">
 
   </div>
+
 </body>
 </html>
